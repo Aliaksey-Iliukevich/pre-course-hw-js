@@ -14,5 +14,5 @@ function clone(obj) {
 let passport2_0 = clone(passport);
 passport2_0.name = "Ivan";
 
-console.log(passport);
-console.log(passport2_0);
+console.log(passport.name);
+console.log(passport2_0.name);
